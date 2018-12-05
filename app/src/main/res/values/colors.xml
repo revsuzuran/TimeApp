@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created On : 12/5/18 2:27 PM
+  ~ Author : Aqil Prakoso
+  ~ Copyright (c) 2018 iRevStudio
+  -->
+
+<resources>
+    <color name="colorPrimary">#3498db</color>
+    <color name="colorPrimaryDark">#2980b9</color>
+    <color name="colorAccent">#e74c3c</color>
+    <color name="colorSecondary">#34495e</color>
+</resources>

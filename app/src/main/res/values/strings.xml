@@ -1,0 +1,15 @@
+<!--
+  ~ Created On : 12/5/18 2:27 PM
+  ~ Author : Aqil Prakoso
+  ~ Copyright (c) 2018 iRevStudio
+  -->
+
+<resources>
+    <string name="app_name">TimeApp</string>
+    <string name="list"/>
+    <string name="home"/>
+    <string name="menu"/>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

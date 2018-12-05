@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created On : 12/5/18 2:27 PM
+  ~ Author : Aqil Prakoso
+  ~ Copyright (c) 2018 iRevStudio
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/bottomNav_menu"
+            android:enabled="true"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="@string/menu"
+            app:showAsAction="ifRoom" />
+
+    <item
+            android:id="@+id/bottomNav_home"
+            android:enabled="true"
+            android:icon="@mipmap/ic_launcher_round"
+            android:title="@string/home"
+            app:showAsAction="ifRoom" />
+
+    <item
+            android:id="@+id/bottomNav_list"
+            android:enabled="true"
+            android:title="@string/list"
+            android:icon="@mipmap/ic_launcher_round"
+            app:showAsAction="ifRoom"/>
+
+
+</menu>
