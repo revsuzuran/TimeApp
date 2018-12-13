@@ -9,5 +9,6 @@
     <color name="colorPrimary">#3498db</color>
     <color name="colorPrimaryDark">#2980b9</color>
     <color name="colorAccent">#e74c3c</color>
-    <color name="colorSecondary">#34495e</color>
+    <color name="colorSecondary">#cccccc</color>
+    <color name="colorSalju">#fff</color>
 </resources>

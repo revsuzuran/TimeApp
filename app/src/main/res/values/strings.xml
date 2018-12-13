@@ -6,10 +6,12 @@
 
 <resources>
     <string name="app_name">TimeApp</string>
-    <string name="list"/>
-    <string name="home"/>
-    <string name="menu"/>
+    <string name="list">Statistic</string>
+    <string name="home">Summary</string>
+    <string name="menu">Menu</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="usage_stats">Usage Stats</string>
+    <string name="reminders">Reminders</string>
 </resources>

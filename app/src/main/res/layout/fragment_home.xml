@@ -5,16 +5,32 @@
   ~ Copyright (c) 2018 iRevStudio
   -->
 
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context=".ui.fragment.HomeFragment">
+              android:orientation="vertical"
+             tools:context=".ui.fragment.HomeFragment"
+             android:layout_margin="10dp">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+        <Switch
+                android:id="@+id/usageStats_switch"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/usage_stats"
+                android:textColor="@color/colorPrimary"
+        />
+    <Switch
+            android:id="@+id/reminder_switch"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/hello_blank_fragment"/>
+            android:layout_height="30dp"
+            android:text="@string/reminders"
+            android:textColor="@color/colorAccent"
+    />
 
-</FrameLayout>
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/home_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
